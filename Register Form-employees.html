@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<title>I-lanza Register Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="estilos.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+ 
+   <style>
+    <body>
+    <head>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  .bg-1 { 
+  background: url("") no-repeat center center;
+ background-size: cover;
+      color:black;
+      padding-top: 350px;
+      padding-bottom: 100px;
+       
+      Font-style: italic;
+      font-weight: bold;    
+  font-family: Helvetica, Arial, sans-serif; 
+  }
+    p{
+color: #3d5170;
+font-size: 16px;
+}
+cite {
+color: #00c3ff;
+ text-shadow: 2px 2px 4px #000000;
+  font-size: 24px;
+}
+h1{
+position: center;
+    top: 40px;
+    left: 900px;
+}
+h2{
+   position: center;
+    top: 200px;
+    right: 50px; 
+font-size: 24px;
+}
+h3{
+
+}
+h4{
+ position: absolute;
+    top: 1100px;
+    right: 5px;
+    color: #6d737c;
+    font-size: 22px;
+}   
+  
+
+  
+  .bg-4 { 
+  padding-top: 50px;
+      padding-bottom: 50px;
+      background-color: #2f2f2f; 
+      color: #fff;
+  }
+  
+ 
+  }
+  
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  
+  }
+  .button {
+   position: absolute;
+    top: 550px;
+    left: 1000px;
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #00c3ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+     
+
+.navbar {
+background-color: white; 
+
+box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+      margin-bottom: 0;
+     color: #00c3ff;
+      z-index: 9999;
+      border: 0;
+      font-size: 19px ;
+      line-height: 1.42857143;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: black !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: white;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+    
+ }
+form {
+    border: 0px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+      }
+
+.container {
+background:url("") no-repeat bottom ; 
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+    
+     </head>
+ </body>
+  </style>
+ <!-- Navbar -->
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+     
+      
+        <li><a href="#about">HOME</a></li>
+        <li><a href="#services">EMPLEADOS</a></li>
+        <li><a href="#portfolio">EMPLEADORES</a></li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-1 text-center">
+<img style="position: absolute;top:100px;left:300px;" src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-9/23032509_1491316294291455_7828619416253481204_n.jpg?oh=bcc751b53a7868b79c9a36bfe3a7468a&oe=5A667CE9" alt="Avatar" class="avatar">
+
+<h1></h1>
+<form style="width:1100px;" action="connect.php" method="post"
+  class="form-register" onsumit="returnvalidar();"><br><br><br><br>
+  <h2 class="form-titulo">Personal information</h2>
+    <div class="contenedor-inputs">
+    <input type="text" id="name" name="name" placeholder="Name" class="input-48" reguired>
+    <input type="text" id="Initials" name="Initials" placeholder="Initials" class="input-48" reguired>
+    <input type="text" id="LastName" name="LastName" placeholder="Last Name" class="input-48" reguired>
+    <input type="text" id="Sex" name="Sex" placeholder="Sex" class="input-48" reguired>
+    <input type="text" id="Birthdate" name="Birthdate" placeholder="Birthdate" class="input-100" reguired>
+    <input type="text" id="Birthplace" name="Birthplace" placeholder="Birthplace" class="input-100" reguired>
+       
+    <h3>Adres</h3>
+    <input type="text" id="Street" name="Street" placeholder="Street" class="input-48" reguired>  
+    <input type="text" id="House number" name="House number" placeholder="House number" class="input-48" reguired> 
+    <input type="text" id="addition" name="addition" placeholder="Addition" class="input-48" reguired> 
+    <input type="text" id="Zipcode" name="Zipcode" placeholder="Zipcode" class="input-48" reguired>
+    <input type="text" id="city" name="city" placeholder="City" class="input-48" reguired>
+       
+    <h3>Contact details</h3><br><br>
+    <input type="text" id="Telephone number / Mobile number " name="Telephone number / Mobile number " placeholder="Telephone number / Mobile number " class="input-48" reguired>
+    <input type="text" id="E-mail address" name="E-mail address" placeholder="E-mail address" class="input-48" reguired>
+   
+          <h3>Motivation and CV</h3>
+        <input style="height: 200px;" type="text" id="Motivation" name="Motivation" placeholder="Motivation" class="input-48" reguired>
+          
+        <form  action="uplaod.php" method="POST"  enctype="multipart/form=dat">
+        <input style="position:absolute;top:1780px;left:650px;border-bottom-color:black;border-radius:10px 3px;" type="file" name="file"><br><br><br>
+        <button type="submit" style="color:white;background-color:darkred;width:100px;border-bottom-color:black;border-radius:10px 3px;" name="submit">UPLOAD</button> </form>
+        <br><br>
+        <input style="color:white;background-color:darkred;width:150px;height:40px; border-bottom-color:black;border-radius:10px 3px;" type="submit" value="Register" class="btn-enviar" reguired>
+        <p class="form__link" > <a href="#"></a></p>    
+</div>
+   </form>
+   
+ 
+
+<!-- Footer -->
+
+</div>
+</body>
+</html>
